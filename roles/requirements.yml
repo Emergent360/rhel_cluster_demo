@@ -1,2 +1,3 @@
 ---
 - src: https://github.com/Emergent360/launch_2zone_vpc.git
+- src: https://github.com/Emergent360/launch_rhel_ami.git
