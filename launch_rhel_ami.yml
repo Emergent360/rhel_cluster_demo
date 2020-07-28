@@ -8,6 +8,6 @@
   - launch_rhel_ami
 
 - name: "Update inventory"
-  hosts:  "{{ ec2_name_prefix }}"
+  hosts:  "{{ ec2_name_prefix }} AWS Inventory"
   tasks:
     - meta: refresh_inventory
