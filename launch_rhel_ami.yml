@@ -8,8 +8,10 @@
   - launch_rhel_ami
 
 - name: "Update {{ ec2_name_prefix }} inventory"
-  tower_inventory:
-    name: "{{ ec2_name_prefix }} AWS Inventory"
-    organization: "Empire"
-    state: present
-    
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    tower_inventory:
+      name: "{{ ec2_name_prefix }} AWS Inventory"
+      organization: "Empire"
+      state: present
