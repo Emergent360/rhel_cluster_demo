@@ -12,6 +12,6 @@
   gather_facts: no
   tasks:
     - tower_inventory:
-      name: "{{ ec2_name_prefix }} AWS Inventory"
-      organization: "Empire"
-      state: present
+        name: "{{ ec2_name_prefix }} AWS Inventory"
+        organization: "Empire"
+        state: present
