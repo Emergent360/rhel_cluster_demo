@@ -7,8 +7,8 @@
   roles:
   - launch_rhel_ami
 
-  tasks:
-    - tower_inventory:
-        name: "{{ ec2_name_prefix }} AWS Inventory"
-        organization: "Empire"
-        state: present
+#  tasks:
+#    - tower_inventory:
+#        name: "{{ ec2_name_prefix }} AWS Inventory"
+#        organization: "Empire"
+#        state: present
