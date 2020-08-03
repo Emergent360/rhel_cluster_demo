@@ -6,4 +6,3 @@
 
   roles:
   - launch_rhel_ami
-  - update_tower_inventory
