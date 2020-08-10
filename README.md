@@ -1,1 +1,1 @@
-# rhel_demo
+# rhel_cluster_demo
