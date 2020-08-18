@@ -6,3 +6,4 @@
 
   roles:
   - launch_2zone_vpc
+  - create_vpc_peering
