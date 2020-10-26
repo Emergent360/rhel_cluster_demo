@@ -1,8 +1,0 @@
----
-
-- name: Launch VPC
-  hosts: localhost
-  gather_facts: no
-
-  roles:
-  - launch_vpc
